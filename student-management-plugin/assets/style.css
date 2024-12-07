@@ -1,0 +1,27 @@
+/* Backend Styles */
+.wrap form {
+    margin: 20px 0;
+}
+.wrap form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.wrap form input[type="text"],
+.wrap form input[type="email"],
+.wrap form input[type="file"] {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Frontend Styles */
+form {
+    margin-bottom: 20px;
+}
+form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+}
+form input[type="submit"] {
+    padding: 10px 20px;
+}
